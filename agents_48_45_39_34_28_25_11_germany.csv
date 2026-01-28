@@ -1,0 +1,5 @@
+id_node_lst,alpha_lst,gamma_lst,epsilon_lst,epsilon_dec_lst,epsilon_end_lst,replace_target_lst,batch_size_lst,fcl1_lst,fcl2_lst
+39,0.001,0.95,1.0,0.9995,0.01,100,32,128,64
+34,0.001,0.95,1.0,0.9995,0.01,100,32,128,64
+28,0.001,0.95,1.0,0.9995,0.01,100,32,128,64
+

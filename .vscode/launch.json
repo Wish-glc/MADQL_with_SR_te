@@ -1,0 +1,49 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Python C++ Debug",
+      "type": "pythoncpp",
+      "request": "launch",
+      "pythonConfig": "default",
+      "program": "${workspaceFolder}/MADQL_with_SR_te/main_marl.py",
+      "cwd": "${workspaceFolder}/MADQL_with_SR_te",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--netw",
+        "germany",
+        "--agents_file",
+        "agents_48_45_39_34_28_25_11_germany.csv",
+        "--train_flag",
+        "train",
+        "--save_folder",
+        "training_agents",
+        "--n_act",
+        "1"
+      ]
+    },
+    {
+      "name": "MARL (test) - germany",
+      "type": "python",
+      "request": "launch",
+      "program": "${workspaceFolder}/MADQL_with_SR_te/main_marl.py",
+      "cwd": "${workspaceFolder}/MADQL_with_SR_te",
+      "console": "integratedTerminal",
+      "justMyCode": true,
+      "args": [
+        "--netw",
+        "germany",
+        "--agents_file",
+        "agents_48_45_39_34_28_25_11_germany.csv",
+        "--train_flag",
+        "test",
+        "--save_folder",
+        "training_agents",
+        "--n_act",
+        "1"
+      ]
+    }
+  ]
+}
+
